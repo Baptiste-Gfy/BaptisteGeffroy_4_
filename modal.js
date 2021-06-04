@@ -27,3 +27,20 @@ function launchModal() {
 function closeModal() {
   modalbg.style.display = "none";
 }
+
+const firstNameValid = () =>{
+  // Le champ Prénom a un minimum de 2 caractères / n'est pas vide.
+  // /^([a-zA-Z\sáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ-]{2,})$/
+}
+
+const lastNameValid = () => {
+  // Le champ du nom de famille a un minimum de 2 caractères / n'est pas vide.
+  // /^([a-zA-Z\sáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ-]{2,})$/
+}
+
+const emailValid = () => {
+  // L'adresse électronique est valide.
+  // ^([0-9a-zA-Z]([-_\\.]*[0-9a-zA-Z]+)*)@([0-9a-zA-Z]([-_\\.]*[0-9a-zA-Z]+)*)[\\.]([a-zA-Z]{2,9})$
+  // ^([\w]([-_\\.]*[\w]+)*)@([\w]([-_\\.]*[\w]+)*)[\\.]([a-zA-Z]{2,9})$
+  // ^[\w\-\.]+@([\w-]+\.)+[\w-]{2,3}$
+}
