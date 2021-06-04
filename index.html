@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    <!-- Header -->
+    <!-- HEADER -->
     <div class="topnav" id="myTopnav">
       <div class="header-logo">
         <img
@@ -26,7 +26,7 @@
           height="auto"
         />
       </div>
-      <!-- Nav -->
+      <!-- NAV -->
       <div class="main-navbar">
         <a href="#" class="active"><span>Accueil</span></a>
         <a href="#"><span>Détails de l'évènement</span></a>
@@ -39,7 +39,7 @@
       </div>
     </div>
     <main>
-      <!-- Hero -->
+      <!-- HERO -->
       <div class="hero-section">
         <div class="hero-content">
           <h1 class="hero-headline">
@@ -58,16 +58,19 @@
         <button class="btn-signup modal-btn">je m'inscris</button>
       </div>
 
+      <!-- MODAL -->
       <div class="bground">
         <div class="content">
           <span class="close"></span>
           <div class="modal-body">
+            <!-- FORM -->
             <form
               name="reserve"
               action="index.html"
               method="get"
               onsubmit="return validate();"
             >
+            <!-- FIRST NAME -->
               <div class="formData">
                 <label>Prénom</label><br />
                 <input
@@ -78,6 +81,7 @@
                   minlength="2"
                 /><br />
               </div>
+              <!-- LAST NAME -->
               <div class="formData">
                 <label>Nom</label><br />
                 <input
@@ -87,6 +91,7 @@
                   name="last"
                 /><br />
               </div>
+              <!-- MAIL -->
               <div class="formData">
                 <label>E-mail</label><br />
                 <input
@@ -96,6 +101,7 @@
                   name="email"
                 /><br />
               </div>
+              <!-- BIRTHDAY -->
               <div class="formData">
                 <label>Date de naissance</label><br />
                 <input
@@ -105,6 +111,7 @@
                   name="birthdate"
                 /><br />
               </div>
+              <!-- TOURNAMENT -->
               <div class="formData">
                 <label
                   >À combien de tournois GameOn avez-vous déjà participé
@@ -120,6 +127,7 @@
                 />
               </div>
               <p class="text-label">Quelles villes ?</p>
+              <!-- RADIO BTN -->
               <div class="formData">
                 <input
                   class="checkbox-input"
@@ -188,7 +196,7 @@
                   Portland</label
                 >
               </div>
-
+              <!-- CHECKBOX -->
               <div class="formData">
                 <input
                   class="checkbox-input"
@@ -208,6 +216,7 @@
                 </label>
                 <br />
               </div>
+              <!-- BTN SUBMIT -->
               <input
                 class="btn-submit"
                 type="submit"
@@ -219,6 +228,7 @@
         </div>
       </div>
     </main>
+    <!-- FOOTER -->
     <footer>
       <p class="copyrights">Copyright 2014 - 2020, GameOn Inc.</p>
     </footer>
