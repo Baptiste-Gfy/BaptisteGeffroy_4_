@@ -103,7 +103,7 @@
                   type="email"
                   id="email"
                   name="email"
-                  required
+                  ()
                 /><br />
               </div>
               <!-- BIRTHDAY -->
@@ -114,7 +114,7 @@
                   type="date"
                   id="birthdate"
                   name="birthdate"
-                  required
+                  onchange="ValidadorBirthday()"
                 /><br />
               </div>
               <!-- TOURNAMENT -->
@@ -128,13 +128,11 @@
                   class="text-control"
                   id="quantity"
                   name="quantity"
-                  min="0"
-                  max="99"
-                  required
+                  onchange="ValidadorTournament()"
                 />
               </div>
+              <!-- CITY -->
               <p class="text-label">Quelles villes ?</p>
-              <!-- RADIO BTN -->
               <div class="formData">
                 <input
                   class="checkbox-input"
