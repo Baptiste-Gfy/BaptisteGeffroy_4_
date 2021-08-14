@@ -1,4 +1,3 @@
-#### suite a un probleme de repo diriger vous vers la branch `main` pour voir mon travail
 # GameOn
 ## OpenClassRooms Projet 4
 * Ce projet a été forké.
