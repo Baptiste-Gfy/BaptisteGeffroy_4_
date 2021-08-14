@@ -1,10 +1,11 @@
 # GameOn
 ## OpenClassRooms Projet 4
-projet forker, vous pouvez voir le dépot avant fork dans la branch `Before-my-work`
+* Ce projet a été forké.
+* vous pouvez voir le projet avant que je commence a travaillé dessus dans la branch `Before-my-work`
+* suite a un probleme de repo diriger vous vers la branch `main` pour voir mon travail
 
-1. Forkez ce repo ;
-2. Il est conseillé d'utiliser VisualStudio Code et vous pouvez utiliser Docker, mais ce n'est pas obligatoire ;
-3. Il n'y a aucune dépendance ;
-4. Vous ne devez utiliser que du CSS personnalisé et du JavaScript pur, sans jQuery, Bootstrap ou autre librairie.
+### liens du site en `PROD` : 
+https://baptiste-gfy.github.io/BaptisteGeffroy_4_04062021/
+
 
 
