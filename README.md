@@ -5,7 +5,7 @@
 * vous pouvez voir le projet avant que je commence a travaillé dessus dans la branch `Before-my-work`
 
 ### liens du site en `PROD` : 
-https://baptiste-gfy.github.io/BaptisteGeffroy_4_04062021/
+https://baptistegfy.github.io/BaptisteGeffroy_4_04062021/
 
 
 
